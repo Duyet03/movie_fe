@@ -17,6 +17,10 @@ const routes = [
         path : '/thanh-toan',
         component: ()=>import('../components/ThanhToan/index.vue')
     },
+    {
+        path : '/hello',
+        component: ()=>import('../components/hello/index.vue')
+    },
 ]
 
 const router = createRouter({
